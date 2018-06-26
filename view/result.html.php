@@ -34,10 +34,5 @@
 				}
 			?>
 		</ul>
-		<pre><? print_r($result)?></pre>
-		<script type="text/javascript">
-			let data = <?=json_encode($result)?>;
-			console.log(data);
-		</script>
 	</div>
 </div>
